@@ -10,20 +10,16 @@
 - **Database:** CSV-based storage (can be extended to SQLite/MySQL)  
 - **API Integration:** Uses Flask routes for search and recipe addition
   
-## 🌟 Features
-✅ Search for recipes **by ingredients**  
-✅ Search for recipes **by name**  
-✅ View **detailed instructions** and **ingredient lists**  
-✅ Supports **image display** for recipes  
-✅ Provides **recipe source links** for full instructions  
-✅ Users can **add their own recipes**  
+
 
 ---
 ## Install Dependencies
   pip install -r requirements.txt
+---
+---
 ##Run the Flask App
   python app.py
-
+---
 ## 🚀 Getting Started
 Follow these steps to set up **Foodos** on your local machine.
 
