@@ -13,12 +13,12 @@
 
 
 ---
-## Install Dependencies
-  pip install -r requirements.txt
+Use `pip install -r requirements.txt` to install dependencies.
+
 ---
----
-##Run the Flask App
-  python app.py
+
+Execute  `python app.py` to run Flask app.
+
 ---
 ## 🚀 Getting Started
 Follow these steps to set up **Foodos** on your local machine.
