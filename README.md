@@ -1,4 +1,4 @@
-# 🍽️ Foodos - Recipe Finder
+# 🍽️ CookNet - Recipe Finder
 #### _Who Needs a Chef When You Have FoODoS?_
 
 **Foodos** is a recipe recommendation system that suggests recipes based on available ingredients or recipe names. Users can search for recipes, view detailed instructions, and even contribute their own.
