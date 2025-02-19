@@ -25,7 +25,7 @@ Follow these steps to set up **Foodos** on your local machine.
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/AksayaVenugopal/cooknet.git
-cd cooknet
+git clone https://github.com/AksayaVenugopal/Cooknet.git
+cd Cooknet
 
 
