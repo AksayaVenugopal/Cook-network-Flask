@@ -1,6 +1,7 @@
 
 
 **Cooknet** is a recipe recommendation system that suggests recipes based on available ingredients or recipe names. Users can search for recipes, view detailed instructions, and even contribute their own.
+You can also become a influencer or follow you influencer by posting recipes that you cook.
 
 ---
 ## Tech Stack
