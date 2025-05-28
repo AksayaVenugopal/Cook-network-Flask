@@ -6,7 +6,7 @@
 ## Tech Stack
 - **Backend:** Flask (Python)  
 - **Frontend:** HTML, CSS, JavaScript  
-- **Database:** CSV-based storage (can be extended to SQLite/MySQL)  
+- **Database:** Postgres  
 - **API Integration:** Uses Flask routes for search and recipe addition
   
 
