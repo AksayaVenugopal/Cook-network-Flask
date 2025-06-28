@@ -253,23 +253,23 @@ def share():
 
 @app.route("/like/<filename>", methods=["POST"])
 def like_post(filename):
-    print(f"🔥 Like request received for: {filename}")
+    print(f"Like request received for: {filename}")
     print(f"User: {session.get('user')}")  # Print current user
 
     posts = pd.read_csv(posts_file).fillna("")
 
     row_index = posts.index[posts["Image_Path"] == filename].tolist()
     if not row_index:
-        print("❌ Post not found")
+        print("Post not found")
         return "Post not found", 404
 
     row_index = row_index[0]
     liked_by = str(posts.at[row_index, "Liked_By"])
     liked_by_list = liked_by.split('|') if liked_by else []
 
-    # ✅ Prevent duplicate likes (Ignore if already liked)
+    # Prevent duplicate likes (Ignore if already liked)
     if session["user"] in liked_by_list:
-        print("⚠️ User has already liked this post. Ignoring...")
+        print("User has already liked this post. Ignoring...")
         return "Success"  # Just return "Success" without updating the count
 
     # Add like
@@ -278,7 +278,7 @@ def like_post(filename):
     posts.at[row_index, "Liked_By"] = '|'.join(liked_by_list)
     posts.to_csv(posts_file, index=False)
 
-    print(f"✅ Likes updated: {posts.at[row_index, 'Likes']}")
+    print(f"Likes updated: {posts.at[row_index, 'Likes']}")
     print(f"Liked By: {posts.at[row_index, 'Liked_By']}")
 
     return "Success"
